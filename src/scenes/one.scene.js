@@ -6,8 +6,9 @@ class One extends ECS.Scene {
 		super();
 		const map = new Entities.Map('/assets/tilemaps/scene1.tilemap.json');
 		this.addEntity(map);
-		const player = new Player({ x: 50, y: 50 });
-		const camera = new Components.Camera({ width: 100, height: 100 });
+		const player = new Player({ x: 500, y: 500 });
+		const gameScreen = GameManager.instance.app.screen;
+		const camera = new Components.Camera({ width: gameScreen.width, height: gameScreen.height });
 		this.addEntity(player);
 		player.addComponent(camera);
 		this.addSystem({ id: 'renderer', system: new Systems.Renderer() });

@@ -2,8 +2,8 @@ import { GameManager, SceneManager, AssetsManager } from 'miaam';
 import { SceneOne as SceneOneChunk } from './scenes/index.js';
 
 GameManager.instance.createApplication({
-	width: 512,
-	height: 512,
+	width: 300,
+	height: 300,
 	antialias: true,
 	backgroundAlpha: false,
 	resolution: 1,

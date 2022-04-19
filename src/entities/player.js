@@ -10,6 +10,7 @@ class Player extends ECS.Entity {
 
 	init() {
 		this.addComponent(this.#startingPosition);
+		this.addComponent(new Components.Size({ width: 16, height: 16 }));
 	}
 }
 
