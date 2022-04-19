@@ -1,0 +1,14 @@
+{ "columns":64,
+ "image":"..\/images\/oneImage.png",
+ "imageheight":1024,
+ "imagewidth":1024,
+ "margin":0,
+ "name":"one.tileset",
+ "spacing":0,
+ "tilecount":4096,
+ "tiledversion":"1.7.2",
+ "tileheight":16,
+ "tilewidth":16,
+ "type":"tileset",
+ "version":"1.6"
+}
