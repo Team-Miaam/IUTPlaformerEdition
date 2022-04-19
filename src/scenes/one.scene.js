@@ -6,11 +6,12 @@ class One extends ECS.Scene {
 
 	constructor() {
 		super();
-		const map = new Entities.Map('/assets/tilemaps/scene1.tilemap.json');
+		const map = new Entities.Map('/assets/tilemaps/newScene1.tilemap.json');
 		this.addEntity(map);
 
-		this.player = new Player({ x: 100, y: 100 });
+		this.player = new Player({ x: 50, y: 200 });
 		this.addEntity(this.player);
+		this.addSystem({ id: 'physics', system: new Systems.PhysicsSystem() });
 		this.addSystem({ id: 'renderer', system: new Systems.Renderer() });
 	}
 

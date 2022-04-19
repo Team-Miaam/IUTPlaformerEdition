@@ -261,11 +261,8 @@
         {
          "firstgid":1,
          "source":"..\/tilesets\/allsprite.tileset.json"
-        }, 
-        {
-         "firstgid":3001,
-         "source":"..\/tilesets\/indoorprops.tileset.json"
-        }],
+        }
+        ],
  "tilewidth":16,
  "type":"map",
  "version":"1.6",

@@ -5,20 +5,24 @@ class Player extends ECS.Entity {
 
 	constructor(startingPosition) {
 		super();
-		this.#startingPosition = new Components.Position(startingPosition);
+		this.#startingPosition = startingPosition;
 	}
 
 	init() {
-		this.addComponent(this.#startingPosition);
-		this.addComponent(new Components.Size({ width: 16, height: 16 }));
+		const size = { width: 16, height: 16 };
+		this.addComponent(new Components.Position(this.#startingPosition));
+		this.addComponent(new Components.Size(size));
 
 		const gameScreen = GameManager.instance.app.screen;
 		const camera = new Components.Camera({ width: gameScreen.width, height: gameScreen.height });
 		this.addComponent(camera);
 
-		const sprite = new Components.Sprite({ asset: '/assets/tilemaps/player.tilemap.json' });
-		sprite.props.sprite.animationSpeed = 0.2;
-		this.addComponent(sprite);
+		const spriteComp = new Components.Sprite({ asset: '/assets/tilemaps/player.tilemap.json' });
+		spriteComp.props.sprite.animationSpeed = 0.2;
+		this.addComponent(spriteComp);
+
+		const body = new Components.Box({ position: this.#startingPosition, size });
+		this.addComponent(body);
 	}
 }
 
