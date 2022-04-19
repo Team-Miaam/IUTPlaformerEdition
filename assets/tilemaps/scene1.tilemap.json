@@ -74,17 +74,6 @@
          "id":6,
          "name":"spike",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"isSensor",
-                 "type":"bool",
-                 "value":true
-                }, 
-                {
-                 "name":"physics",
-                 "type":"bool",
-                 "value":true
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":30,
@@ -134,6 +123,116 @@
                  "width":23.5,
                  "x":179.5,
                  "y":114.5
+                }, 
+                {
+                 "height":9.63636363636363,
+                 "id":5,
+                 "name":"spike",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16.3636363636363,
+                 "x":143.454545454545,
+                 "y":678.545454545455
+                }, 
+                {
+                 "height":10.3636363636364,
+                 "id":6,
+                 "name":"spike",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":30.7272727272727,
+                 "x":272.727272727273,
+                 "y":677.454545454545
+                }, 
+                {
+                 "height":10.5454545454545,
+                 "id":7,
+                 "name":"spike",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16.1818181818182,
+                 "x":416,
+                 "y":373.090909090909
+                }, 
+                {
+                 "height":9.27272727272731,
+                 "id":8,
+                 "name":"spike",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":15.2727272727273,
+                 "x":256.181818181818,
+                 "y":373.818181818182
+                }, 
+                {
+                 "height":9.81818181818181,
+                 "id":9,
+                 "name":"spike",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":143.636363636364,
+                 "y":213.272727272727
+                }, 
+                {
+                 "height":8.90909090909091,
+                 "id":10,
+                 "name":"spike",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16.7272727272727,
+                 "x":207.454545454545,
+                 "y":214.181818181818
+                }, 
+                {
+                 "height":9.63636363636365,
+                 "id":11,
+                 "name":"spike",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":15.8181818181818,
+                 "x":383.818181818182,
+                 "y":213.818181818182
+                }, 
+                {
+                 "height":11.2727272727273,
+                 "id":12,
+                 "name":"spike",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":18,
+                 "x":431.272727272727,
+                 "y":165.090909090909
+                }, 
+                {
+                 "height":11.8181818181818,
+                 "id":13,
+                 "name":"spike",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":17.6363636363636,
+                 "x":223.272727272727,
+                 "y":132.363636363636
+                }, 
+                {
+                 "height":9.63636363636365,
+                 "id":14,
+                 "name":"spike",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16.3636363636364,
+                 "x":95.8181818181818,
+                 "y":134
                 }],
          "opacity":1,
          "properties":[
@@ -153,7 +252,7 @@
          "y":0
         }],
  "nextlayerid":9,
- "nextobjectid":4,
+ "nextobjectid":15,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
