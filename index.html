@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Miaam Starter</title>
+</head>
+
+<body>
+	<div id="root"></div>
+
+	<!-- LOADING MIAAM LOCK FILE FIRST -->
+	<script type="text/javascript" defer="true">
+		fetch('./miaam-lock.json')
+			.then(function (response) {
+				return response.json();
+			})
+			.then(function (data) {
+				window.__MIAAM__ = {
+					LOCK: data,
+				};
+				console.log(window.__MIAAM__);
+				const indexScript = document.createElement('script');
+				indexScript.setAttribute('src', './dist/index.js');
+				indexScript.setAttribute('type', 'text/javascript');
+				document.body.appendChild(indexScript);
+			})
+			.catch(function (err) {
+				console.log('error: ' + err);
+			});
+	</script>
+</body>
+
+</html>
