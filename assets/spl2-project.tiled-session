@@ -36,11 +36,11 @@
             "scaleInEditor": 1
         },
         "F:/SPL/IUTPokemonPilotGame/assets/animation/abirAnimation.json": {
-            "scale": 4.6354910714285715,
+            "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.03467039052344,
-                "y": 32.03544084364617
+                "x": 102.125,
+                "y": 52.875
             }
         },
         "F:/SPL/IUTPokemonPilotGame/assets/animation/aksharAnimation.json": {
@@ -63,8 +63,8 @@
             "scale": 2.1746093749999997,
             "selectedLayer": 7,
             "viewCenter": {
-                "x": 93.35009879647927,
-                "y": 156.57984551823245
+                "x": 93.58002514819472,
+                "y": 166.69660499371298
             }
         },
         "F:/SPL/IUTPokemonPilotGame/assets/animation/profAnimation.json": {
@@ -79,7 +79,7 @@
             "scale": 0.33,
             "selectedLayer": 8,
             "viewCenter": {
-                "x": 1090.909090909091,
+                "x": 1093.939393939394,
                 "y": 1146.9696969696968
             }
         },
@@ -210,20 +210,28 @@
                 "y": 507.3333333333333
             }
         },
-        "tilemaps/scene1.tilemap.json": {
-            "scale": 1,
-            "selectedLayer": 0,
+        "tilemaps/player.tilemap.json": {
+            "scale": 8.091964285714285,
+            "selectedLayer": 5,
             "viewCenter": {
-                "x": 409.5,
-                "y": 400.5
+                "x": 47.20732649233146,
+                "y": 49.74070396116076
+            }
+        },
+        "tilemaps/scene1.tilemap.json": {
+            "scale": 1.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 306,
+                "y": 579
             }
         },
         "tilemaps/scene2.tilemap.json": {
             "scale": 1,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 282.5,
-                "y": 326.5
+                "x": 320,
+                "y": 266.5
             }
         },
         "tilemaps/scene3.tilemap.json": {
@@ -231,16 +239,28 @@
             "selectedLayer": 5,
             "viewCenter": {
                 "x": 253.5,
-                "y": 429.5
+                "y": 274.5
+            }
+        },
+        "tilesets/iutprops.tileset.json": {
+            "scaleInDock": 2,
+            "scaleInEditor": 4
+        },
+        "tilesets/player.tilemap.json": {
+            "scale": 8.091964285714285,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 40.101511640737066,
+                "y": 40.10151164073707
             }
         }
     },
-    "last.imagePath": "F:/SPL2/sprites",
-    "map.height": 48,
+    "last.imagePath": "F:/SPL2/Game/IUTPlaformerEdition/assets/images",
+    "map.height": 6,
     "map.lastUsedFormat": "json",
     "map.tileHeight": 16,
     "map.tileWidth": 16,
-    "map.width": 30,
+    "map.width": 6,
     "openFiles": [
         "F:/SPL/IUTPokemonPilotGame/assets/tilemap/IUTcampusMap.json",
         "F:/SPL/IUTPokemonPilotGame/assets/tilesets/menuTileset.json",
@@ -250,18 +270,18 @@
     "project": "spl2-project.tiled-project",
     "property.type": "bool",
     "recentFiles": [
-        "F:/SPL2/map/tilemap/scene1.tilemap.json",
-        "F:/SPL2/map/tilemap/IUTprops2.tileset.json",
-        "F:/SPL2/map/tilemap/iutprops.json",
         "F:/SPL/IUTPokemonPilotGame/assets/tilemap/IUTcampusMap.json",
         "F:/SPL/IUTPokemonPilotGame/assets/tilemap/startSceneMap.json",
         "F:/SPL/IUTPokemonPilotGame/assets/tilemap/endSceneMap.json",
         "F:/SPL/IUTPokemonPilotGame/assets/tilesets/menuTileset.json",
-        "F:/SPL/IUTPokemonPilotGame/assets/tilesets/endScene.json",
-        "F:/SPL/IUTPokemonPilotGame/assets/tilesets/endSceneMap.json",
-        "F:/SPL/IUTPokemonPilotGame/assets/tilemap/endScene.json",
-        "F:/SPL/IUTPokemonPilotGame/assets/tilesets/IUTcampusTileset.json",
-        "F:/SPL/IUTPokemonPilotGame/assets/animation/nomanAnimation.json"
+        "tilemaps/scene3.tilemap.json",
+        "tilesets/player.tilemap.json",
+        "F:/SPL/IUTPokemonPilotGame/assets/animation/abirAnimation.json",
+        "tilesets/iutprops.tileset.json",
+        "tilemaps/scene1.tilemap.json",
+        "tilemaps/scene2.tilemap.json",
+        "F:/SPL2/map/tilemap/scene1.tilemap.json",
+        "F:/SPL2/map/tilemap/IUTprops2.tileset.json"
     ],
     "tileset.lastUsedFormat": "json",
     "tileset.tileSize": {
