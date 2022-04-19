@@ -21,7 +21,8 @@ class Player extends ECS.Entity {
 		spriteComp.props.sprite.animationSpeed = 0.2;
 		this.addComponent(spriteComp);
 
-		const body = new Components.Box({ position: this.#startingPosition, size });
+		const mass = 30;
+		const body = new Components.Box({ position: this.#startingPosition, size, mass });
 		this.addComponent(body);
 	}
 }
