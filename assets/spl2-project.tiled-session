@@ -209,10 +209,26 @@
                 "x": 328,
                 "y": 507.3333333333333
             }
+        },
+        "tilemaps/scene1.tilemap.json": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 301.5,
+                "y": 326.5
+            }
+        },
+        "tilemaps/scene2.tilemap.json": {
+            "scale": 1.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 288.99999999999994,
+                "y": 203
+            }
         }
     },
     "last.imagePath": "F:/SPL2/sprites",
-    "map.height": 60,
+    "map.height": 40,
     "map.lastUsedFormat": "json",
     "map.tileHeight": 16,
     "map.tileWidth": 16,
