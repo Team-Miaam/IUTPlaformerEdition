@@ -214,16 +214,24 @@
             "scale": 1,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 301.5,
-                "y": 326.5
+                "x": 409.5,
+                "y": 400.5
             }
         },
         "tilemaps/scene2.tilemap.json": {
-            "scale": 1.5,
-            "selectedLayer": 1,
+            "scale": 1,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": 288.99999999999994,
-                "y": 203
+                "x": 282.5,
+                "y": 326.5
+            }
+        },
+        "tilemaps/scene3.tilemap.json": {
+            "scale": 1,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 253.5,
+                "y": 428.5
             }
         }
     },
@@ -242,6 +250,7 @@
     "project": "spl2-project.tiled-project",
     "property.type": "bool",
     "recentFiles": [
+        "tilemaps/scene2.tilemap.json",
         "F:/SPL2/map/tilemap/scene1.tilemap.json",
         "F:/SPL2/map/tilemap/IUTprops2.tileset.json",
         "F:/SPL2/map/tilemap/iutprops.json",
@@ -252,8 +261,7 @@
         "F:/SPL/IUTPokemonPilotGame/assets/tilesets/endScene.json",
         "F:/SPL/IUTPokemonPilotGame/assets/tilesets/endSceneMap.json",
         "F:/SPL/IUTPokemonPilotGame/assets/tilemap/endScene.json",
-        "F:/SPL/IUTPokemonPilotGame/assets/tilesets/IUTcampusTileset.json",
-        "F:/SPL/IUTPokemonPilotGame/assets/animation/nomanAnimation.json"
+        "F:/SPL/IUTPokemonPilotGame/assets/tilesets/IUTcampusTileset.json"
     ],
     "tileset.lastUsedFormat": "json",
     "tileset.tileSize": {
