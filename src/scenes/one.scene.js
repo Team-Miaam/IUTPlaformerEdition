@@ -1,4 +1,4 @@
-import { ECS, Entities, Components, Systems, PhysicsManager } from 'miaam';
+import { ECS, Entities, Components, Systems, PhysicsManager, Audio } from 'miaam';
 import Player from '../entities/player.js';
 import PlayerMovement from '../entities/playerMovment.system.js';
 
@@ -19,6 +19,14 @@ class One extends ECS.Scene {
 		PhysicsManager.instance.events.addEventListener('collisionStart.door', () => {
 			console.log('door');
 		});
+
+		const bgclip = new Audio({
+			url: '/assets/audio/bg/bg2.mp3',
+			loop: true,
+		});
+		setTimeout(() => {
+			bgclip.play();
+		}, 1000);
 	}
 
 	update() {

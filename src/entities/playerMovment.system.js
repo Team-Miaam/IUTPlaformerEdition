@@ -1,4 +1,4 @@
-import { ECS, Keyboard, Body, Components } from 'miaam';
+import { ECS, Keyboard, Body, Components, Audio } from 'miaam';
 
 class PlayerMovement extends ECS.System {
 	playerEntity;
@@ -6,6 +6,7 @@ class PlayerMovement extends ECS.System {
 	constructor(playerEntity) {
 		super();
 		this.playerEntity = playerEntity;
+		this.jumpAudio = new Audio({ url: '/assets/audio/jump/jump2.wav' });
 	}
 
 	update() {
@@ -19,6 +20,7 @@ class PlayerMovement extends ECS.System {
 			Body.applyForce(body, position, { x: 0.01, y: 0 });
 		} else if (Keyboard.key('ArrowUp').isDown) {
 			Body.applyForce(body, position, { x: 0, y: -0.05 });
+			this.jumpAudio.play();
 		} else if (Keyboard.key('ArrowDown').isDown) {
 		}
 	}
