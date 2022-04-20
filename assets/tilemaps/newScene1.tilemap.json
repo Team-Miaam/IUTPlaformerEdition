@@ -97,7 +97,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"IsSensor",
+                 "name":"isSensor",
                  "type":"bool",
                  "value":true
                 }, 
