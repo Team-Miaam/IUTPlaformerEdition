@@ -1,7 +1,6 @@
 import { ECS, Entities, Components, Systems, PhysicsManager, Audio, SceneManager, AssetsManager } from 'miaam';
 import Player from '../entities/player.js';
 import PlayerMovement from '../entities/playerMovment.system.js';
-import { SceneTwo as SceneTwoChunk } from './index.js';
 
 class One extends ECS.Scene {
 	player;
@@ -11,7 +10,7 @@ class One extends ECS.Scene {
 		const map = new Entities.Map('/assets/tilemaps/newScene1.tilemap.json');
 		this.addEntity(map);
 
-		this.player = new Player({ x: 250, y: 100 });
+		this.player = new Player({ x: 100, y: 400 });
 		this.addEntity(this.player);
 		this.addSystem({ id: 'physics', system: new Systems.PhysicsSystem() });
 		this.addSystem({ id: 'renderer', system: new Systems.Renderer() });
@@ -28,12 +27,6 @@ class One extends ECS.Scene {
 		setTimeout(() => {
 			bgclip.play();
 		}, 1000);
-
-		// setTimeout(async () => {
-		// 	const { default: SceneTwo } = await AssetsManager.instance.importChunk({ chunk: SceneTwoChunk });
-		// 	const sceneTwo = new SceneTwo();
-		// 	SceneManager.instance.scene = sceneTwo;
-		// }, 4000);
 	}
 
 	update() {
